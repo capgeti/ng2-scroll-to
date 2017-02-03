@@ -1,5 +1,5 @@
-import {NgModule}      from '@angular/core';
 import {ScrollTo} from "./src/scrollTo";
+import {NgModule} from "@angular/core";
 //export {ScrollTo} from './src/scrollTo';
 
 @NgModule({

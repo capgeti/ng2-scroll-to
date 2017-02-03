@@ -17,7 +17,7 @@
     "scrollTo",
     "scrollTop"
   ],
-  "author": "villico85",
+  "author": ["villico85", "drPavka"],
   "license": "MIT",
   "dependencies": {
     "@angular/core": "^2.1.2"
@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drusso85/ng2-scroll-to"
+    "url": "git+https://github.com/drPavka/ng2-scroll-to.git"
   }
 }
