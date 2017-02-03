@@ -1,13 +1,15 @@
 # ng2-scroll-to
 angular 2 library to animate scrolling to anchor links.
 
+Packed in ngModule 
+
 ## Features
 - jump to the top edge of an element referenced in the href attribute (`href="#mytarget"`) or scrollTargetSelector attribute(`scrollTargetSelector="#mytarget"`)
 - jump to the the to given coordinates (`scrollYTarget="0"`)
 
 ## Install
 ```sh
-npm install ng2-scroll-to --save
+npm install https://github.com/drPavka/ng2-scroll-to.git --save
 ```
 ## Usage
 Import the directive and add it to the directives array of your component. 
@@ -16,12 +18,12 @@ Import the directive and add it to the directives array of your component.
 
 ```typescript
 // app.module.ts
-import {ScrollTo} from 'ng2-scroll-to';
+import {ScrollToModule} from 'ng2-scroll-to';
 
 @NgModule({
     imports: [
          ....,
-        ScrollTo
+        ScrollToModule
         ]
 })
 export class AppModule {

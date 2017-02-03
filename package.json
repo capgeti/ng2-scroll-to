@@ -1,9 +1,9 @@
 {
   "name": "ng2-scroll-to",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "angular 2 library to animate scrolling.",
-  "main": "./ng2-scroll-to.js",
-  "module": "./ng2-scroll-to.js",
+  "main": "./src/scrollTo.ts",
+  "module": "./ng2-scroll-to.ts",
   "scripts": {
     "prepublish": "tsc"
   },
@@ -17,7 +17,7 @@
     "scrollTo",
     "scrollTop"
   ],
-  "author": ["villico85", "drPavka"],
+  "author": "villico85",
   "license": "MIT",
   "dependencies": {
     "@angular/core": "^2.1.2"
