@@ -3,11 +3,11 @@
   "version": "1.0.4",
   "description": "angular 2 library to animate scrolling.",
   "main": "./src/scrollTo.ts",
-  "module": "./ng2-scroll-to.ts",
+  "module": "./index.ts",
   "scripts": {
     "prepublish": "tsc"
   },
-  "typings": "./ng2-scroll-to.d.ts",
+  "typings": "./index.d.ts",
   "keywords": [
     "smooth",
     "scroll",
@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drPavka/ng2-scroll-to.git"
+    "url": "git+https://github.com/capgeti/ng2-scroll-to.git"
   }
 }

@@ -9,10 +9,10 @@ Packed in ngModule
 
 ## Install
 ```sh
-npm install https://github.com/drPavka/ng2-scroll-to.git --save
+npm install https://github.com/capgeti/ng2-scroll-to.git --save
 ```
 ## Usage
-Import the directive and add it to the directives array of your component. 
+Import the module and add it to the imports array of your app.module.ts. 
 
 
 
@@ -39,8 +39,8 @@ In your template you may now add the `scrollTo` attribute to anchors elements.
    ...
    template: `...
         <a scrollTo href="#main-section">Scroll to main section</a>
-        <button scrollTo scrollTargetSelector="#test-section">Scroll to test section</a>
-        <button scrollTo scrollableElementSelector="#container" scrollYTarget="0">Go top</a>
+        <button scrollTo scrollTargetSelector="#test-section">Scroll to test section</button>
+        <button scrollTo scrollableElementSelector="#container" scrollYTarget="0">Go top</button>
         <!-- Further content here -->
         <div id="container">
             <section id="main-section">Bla bla bla</section>
